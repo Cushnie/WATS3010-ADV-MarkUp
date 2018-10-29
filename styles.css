@@ -3,6 +3,7 @@
 /* NAV */
 
 nav ul li {
+        font-family: sans-serif;
         display: inline;
         border: solid 5px #563917;
         padding: 5px;
@@ -18,6 +19,7 @@ nav ul li {
 table {
     width: 75%;
     text-align: left;
+    font-family: sans-serif;
 }
 
 .selected_works {
@@ -37,11 +39,12 @@ table {
 }
 
 
+
 /* pic float */
 .bio-photo {
         width: 25%;
         float: left;
-        background: #cccccc;  
+        background: #D5D1CD;  
         margin: 15px;
         padding: 7.5px;
 }
@@ -57,4 +60,28 @@ dt  {
     font-weight: 900;
 }
 
+p   {
+    font-family: sans-serif;
+}
 
+header  {
+        font-family: sans-serif;
+}
+
+footer  {
+        font-family: sans-serif;
+}
+
+/* poem */
+
+#content-poem {
+        font-style: italic;
+        margin: 5px;
+        padding: 2.5px;
+}
+
+.pretty {
+        width: 30%;
+        border-style: double;
+        background-color: #D5D1CD;
+        }
